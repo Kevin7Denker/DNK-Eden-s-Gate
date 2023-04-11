@@ -1,0 +1,58 @@
+.NavBar{
+    width: 100vw;
+    height: 7vh;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+
+    .container_nav{
+        width: 100vw;
+        display: flex;
+        margin: 1%;
+        justify-content: space-between;
+
+
+        .container_nav_logo{
+            display: flex;
+            align-items: center;
+            margin: 1%;
+
+            .logo_image {
+                width: 6%;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+            .logo_text{
+                h1{
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .container_nav_options{
+            display: flex;
+            align-items: center;
+            margin-right: 1%;
+            width: 18vw;
+            
+            #op{
+                padding: 1% 1.5% 1% 1.5%;
+                margin: 5%;
+                color: white;
+            }
+
+            #fi{
+                padding: 3% 4% 3% 4%;
+                border-radius:5px;
+                font-size: 1rem;
+                margin: 5%;
+                color: white;
+                background-color: rgb(212, 0, 0);
+            }
+        }
+    }
+    
+}
